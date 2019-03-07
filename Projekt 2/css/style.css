@@ -1,0 +1,236 @@
+html, body {
+	background-color: black;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#top {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	display: grid;
+	grid-template-columns: auto 200px 580px 200px auto;
+	grid-template-rows: 225px auto 225px 10px;
+}
+a{
+	color: #e9b269;
+}
+h2{
+	color: #e9b269;
+}
+
+#kategorie {
+	font-family: Verdana, Times New Roman;
+	 border: #584636 2px dashed;
+	 border-radius: 5px;
+	 color: #e9b269;
+}
+
+#NAGLOWEK {
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row: 1;
+	background: url('../img/baner.png');
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	grid-template-rows:auto 40px;
+	height:225px;
+	border-top:thick solid #b58a5e;
+	border-left:thick solid #b58a5e;
+	border-right:thick solid #b58a5e;
+	-webkit-border-top-left-radius: 40px;
+	-webkit-border-top-right-radius: 40px;
+	-moz-border-radius-topleft: 40px;
+	-moz-border-radius-topright: 40px;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	}
+
+#LEWO {
+	grid-column: 2;
+	float: left;
+	overflow: hidden;
+	border-left:thick solid #b58a5e;
+	border-right:thick solid #b58a5e;
+	background-color: #160f2f;
+	background-size: 100%;
+}
+#paginacja{
+	position:absolute;
+	top:900px; 
+	left:50%;
+}
+#TRESC {
+	grid-column: 3;
+	float: left;
+	overflow: hidden;
+	background-color: white;
+}
+#PRAWO {
+	grid-column: 4;
+	min-height:700px;
+	float: Right;
+	overflow: hidden;
+	border-right:thick solid #b58a5e;
+	border-left:thick solid #b58a5e;
+	background-color: #160f2f;
+}
+
+
+#STOPKA {
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row: 3;
+	clear: both;
+	background: url('../img/stopka.png');
+	border-bottom:thick solid #b58a5e;
+	border-left:thick solid #b58a5e;
+	border-right:thick solid #b58a5e;
+	-webkit-border-bottom-right-radius: 40px;
+	-webkit-border-bottom-left-radius: 40px;
+	-moz-border-radius-bottomright: 40px;
+	-moz-border-radius-bottomleft: 40px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+}
+
+#czas_generowania{
+	grid-row: 4;
+	grid-column: 3;
+}
+
+#home {
+	float: left;
+	display: block;
+	margin-left: 9%;
+	margin-top:10px;
+	background: url('../img/button/Home.png');
+	height: 16px;
+	width: 66px;
+	grid-row: 2;
+}
+
+#home:hover {
+	background: url('../img/button/Home_myszka.png');
+}
+
+#home.active {
+	background: url('../img/button/Home_aktywna.png');
+}
+
+#shop{
+	float: left;
+	display: block;
+	margin-left: 9%;
+	margin-top:10px;
+	background: url('../img/button/Sklep.png');
+	height: 21px;
+	width: 63px;
+	grid-row: 2;
+}
+
+#shop:hover {
+	background: url('../img/button/Sklep_myszka.png');
+}
+
+#shop.active{
+	background: url('../img/button/Sklep_aktywna.png');
+}
+
+#author{
+	float: left;
+	display: block;
+	margin-left: 9%;
+	margin-top:10px;
+	background: url('../img/button/Autor.png');
+	height: 16px;
+	width: 66px;
+	grid-row: 2;
+}
+
+#author:hover {
+	background: url('../img/button/Autor_myszka.png');
+}
+
+#author.active {
+	background: url('../img/button/Autor_aktywna.png');
+}
+
+#contact{
+	float: left;
+	display: block;
+	margin-left: 9%;
+	margin-top:10px;
+	background: url('../img/button/Kontakt.png');
+	height: 17px;
+	width: 91px;
+	grid-row: 2;
+	}
+
+#contact:hover {
+	background: url('../img/button/Kontakt_myszka.png');
+}
+
+#contact.active {
+	background: url('../img/button/Kontakt_aktywna.png');
+}
+
+#return{
+	float: left;
+	display: block;
+	margin-left: 9%;
+	margin-top:10px;
+	background: url('../img/button/Powrot.png');
+	height: 18px;
+	width: 83px;
+	grid-row: 2;
+}
+
+#return:hover {
+	background: url('../img/button/Powrot_myszka.png');
+}
+
+.error {
+    background-color: #aa0000;
+    color: white;
+    margin: 10px;
+    width: 600px;
+    padding: 25px;
+    border: 3px solid white;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.error h4 {
+    margin-bottom: 15px;
+}
+
+.error.icon {
+    float: left;
+    margin-right: 20px;
+}
+
+.sukces {
+    background-color: #00bb00;
+    color: white;
+    margin: 10px;
+    width: 600px;
+    padding: 25px;
+    border: 3px solid white;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.sukces h4 {
+    margin-bottom: 15px;
+}
+
+.sukces.icon {
+    float: left;
+    margin-right: 20px;
+}
+
