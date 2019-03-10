@@ -1,0 +1,74 @@
+html, body {
+	background-color: white;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#MENU{
+	text-align: center;
+}
+
+#kontener {
+	width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	background-color: #F9E04B;
+	vertical-align: middle;
+	border: 2px;
+	border-style: solid;
+}
+
+#NAGLOWEK {
+	background-color:yellow;
+	height: 250px;
+	text-align: center;
+	border-bottom: solid 2px;
+}
+
+#LEWY {
+	min-height:150px;
+	width: 150px;
+	float: left;
+	overflow: hidden;
+	background-color: yellow;
+}
+
+#PRAWY {
+	min-height:150px;
+	width: 150px;
+	float: right;
+	overflow: hidden;
+	background-color: yellow;
+}
+
+#TRESC1 {
+	min-height:50px;
+	width: 480px;
+	float: left;
+	overflow: hidden;
+	background-color: red;
+}
+#TRESC2 {
+	min-height:50px;
+	width: 480px;
+	float: left;
+	overflow: hidden;
+	background-color: orange;
+}
+#TRESC3 {
+	min-height:50px;
+	width: 480px;
+	float: left;
+	overflow: hidden;
+	background-color: green;
+}
+
+#STOPKA {
+	border-top: solid 2px;
+	height: 50px;
+	clear: both;
+	width: 100%;
+	background-color: yellow;
+}
